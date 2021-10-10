@@ -2,10 +2,11 @@
 
 int main(){ 
 
-    float ThirtyTwo=32, OnePointEight=1.8, FarenheitValue;
+    double ThirtyTwo=32, OnePointEight=1.8;
+    double FarenheitValue;
     printf("Enter Farenheit value\n");
-    scanf("%f", &FarenheitValue);
-    printf("In Celsius it will be %f", (FarenheitValue-ThirtyTwo)/OnePointEight);
+    scanf("%lf", &FarenheitValue);
+    printf("In Celsius it will be %lf", (FarenheitValue-ThirtyTwo)/OnePointEight);
     return 0; 
 
 }
