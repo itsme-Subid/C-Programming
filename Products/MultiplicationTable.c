@@ -1,6 +1,6 @@
 #include <stdio.h> 
 
-int main(){ 
+void main(){ 
 
     float n;
     int max;
@@ -12,6 +12,5 @@ int main(){
     {
         printf("%.2f X %d = %.3f \n", n, m, n*m);
     }
-    return 0; 
 
 }
