@@ -11,13 +11,13 @@ void main()
         scanf("lorem ipsum dummy words which is needed otherwise this program is not working\n %d\n", &n);
         if ((n % 2) == 0)
         {
-            printf("You choose 0 for even number\n\n");
+            printf("You entered 0 for even numbers\n\n");
             printf("Enter the number from where you want even number\n");
             scanf(" %d\n", &a);
         }
         else
         {
-            printf("You choose 1 for odd number\n\n");
+            printf("You entered 1 for odd number\n\n");
             printf("Enter the number from where you want odd number\n");
             scanf(" %d\n", &a);
         }
