@@ -10,7 +10,7 @@ int main()
         printf("For Perimeter enter 2\n");
         printf("For Temperature enter 3\n");
         printf("For Exit enter 0\n");
-        scanf("%d", &value);
+        scanf(" %d", &value);
         if (value == 0)
         {
             break;

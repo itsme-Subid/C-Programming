@@ -7,7 +7,7 @@ void main()
     int max;
     while (1)
     {
-        printf("Enter the number whose multiplication table you want (press 0 to exit)\n");
+        printf("Enter the number whose multiplication table you want (press 0 to Exit)\n");
         scanf("%f", &n);
         if (n == 0)
         {
