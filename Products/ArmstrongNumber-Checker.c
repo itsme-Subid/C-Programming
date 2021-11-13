@@ -23,7 +23,7 @@ void main()
 
             sum += pow(digits, power);
 
-            n1 = n1 / 10;
+            n1 /= 10;
         }
 
         printf("\a");
