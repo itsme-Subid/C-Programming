@@ -1,4 +1,29 @@
 #include <stdio.h>
+#include <conio.h>
+void printpattern(int a)
+{
+    for (int i = 0; i <= a; i++)
+    {
+        printf("\t");
+        for (int j = 0; j <= i - 1; j++)
+        {
+            printf(" @");
+        }
+        printf("\n");
+    }
+}
+void printReversedpattern(int a)
+{
+    for (int i = 0; i <= a; i++)
+    {
+        printf("\t");
+        for (int j = 0; j <= a - i - 1; j++)
+        {
+            printf(" @");
+        }
+        printf("\n");
+    }
+}
 
 void main()
 {
@@ -13,15 +38,9 @@ void main()
             goto exit;
         }
 
-        for (int i = 0; i <= a; i++)
-        {
-            printf("\t");
-            for (int j = 1; j <= i; j++)
-            {
-                printf(" @");
-            }
-            printf("\n");
-        }
+        printReversedpattern(a);
+        printpattern(a);
     }
 exit:
+    getch();
 }

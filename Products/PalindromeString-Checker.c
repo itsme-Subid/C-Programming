@@ -3,20 +3,22 @@
 
 int palindrome(char str[])
 {
-    int l;
+    int l, n;
     l = strlen(str);
 
     for (int i = 0; i < l / 2; i++)
     {
         if (str[i] != str[l - 1 - i])
         {
-            return 0;
+            n = 0;
         }
         else
         {
-            return 1;
+            n = 1;
         }
+        n += n;
     }
+    return n;
 }
 void main()
 {
@@ -34,21 +36,17 @@ void main()
         }
         else
         {
-            switch (palindrome(str))
+            if (palindrome(str))
             {
-            case 1:
                 printf("This string is a Palindrome string\n");
-                break;
-            case 0:
-                printf("This string is not a Palindrome string\n");
-                break;
-
-            default:
-                break;
             }
+            else
+            {
+                printf("This string is not a Palindrome string\n");
+            }
+
             printf("\t***Thank You***\n\n");
         }
-
-    exit:
     }
+exit:
 }
