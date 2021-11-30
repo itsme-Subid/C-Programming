@@ -2,6 +2,7 @@
 #include <conio.h>
 void main()
 {
+    // average of 3 numbers
     int i, j, k, av;
     printf("Enter three numbers\n");
     scanf("%d %d %d", &i, &j, &k);
