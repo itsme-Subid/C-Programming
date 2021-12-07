@@ -4,6 +4,25 @@
 void area();
 void perimeter();
 void temperature();
+void circle_area();
+void cylinder_area();
+void rectangle_area();
+void square_area();
+void trapezium_area();
+void triangle_area();
+void circle_perimeter();
+void equilateraltriangle_perimeter();
+void isoscelestriangle_perimeter();
+void rectangle_perimeter();
+void square_perimeter();
+void trapezoid_perimeter();
+void triangle_perimeter();
+void celsiustofarenheit_temperature();
+void celsiustokelvin_temperature();
+void farenheittocelsius_temperature();
+void farenheittokelvin_temperature();
+void kelvintocelsius_temperature();
+void kelvintofarenheit_temperature();
 
 void main()
 {
@@ -40,25 +59,6 @@ void main()
     }
 }
 
-void circle_area();
-void cylinder_area();
-void rectangle_area();
-void square_area();
-void trapezium_area();
-void triangle_area();
-void circle_perimeter();
-void equilateraltriangle_perimeter();
-void isoscelestriangle_perimeter();
-void rectangle_perimeter();
-void square_perimeter();
-void trapezoid_perimeter();
-void triangle_perimeter();
-void celsiustofarenheit_temperature();
-void celsiustokelvin_temperature();
-void farenheittocelsius_temperature();
-void farenheittokelvin_temperature();
-void kelvintocelsius_temperature();
-void kelvintofarenheit_temperature();
 
 void area()
 {
