@@ -59,7 +59,6 @@ void main()
     }
 }
 
-
 void area()
 {
     do
@@ -200,25 +199,25 @@ void temperature()
 void circle_area()
 {
     float radius, pi = 3.141592653589793238;
-    printf("Enter radius of your circle (For previous menu press 0)\n");
+    printf("Enter radius of your circle\n");
     scanf(" %.2f", &radius);
     printf("The area of your circle is %.2f\n", pi * radius * radius);
 }
 
 void cylinder_area()
 {
-    float height, radius, two = 2, pi = 3.141592653589793238;
-    printf("Enter radius of your circle (for previous menu press 0)\n");
+    float height, radius, pi = 3.141592653589793238;
+    printf("Enter radius of your circle\n");
     scanf(" %.2f", &radius);
     printf("Enter height of your circle\n");
     scanf(" %.2f", &height);
-    printf("Area of your Cylinder is %.2f", (two * pi * radius * height) + (two * pi * radius * radius));
+    printf("Area of your Cylinder is %.2f", (2 * pi * radius * height) + (2 * pi * radius * radius));
 }
 
 void rectangle_area()
 {
     float length, breadth;
-    printf("Enter length of your rectangle (for previous menu press 0)\n");
+    printf("Enter length of your rectangle\n");
     scanf(" %.2f", &length);
     printf("Enter breadth of your rectangle\n");
     scanf(" %.2f", &breadth);
@@ -229,7 +228,7 @@ void rectangle_area()
 void square_area()
 {
     double side;
-    printf("Enter side of your square (for previous menu press 0)\n");
+    printf("Enter side of your square\n");
     scanf(" %.2f", &side);
     printf("Area of your square is %.2f", side * side);
 }
@@ -237,7 +236,7 @@ void square_area()
 void trapezium_area()
 {
     float first_base, second_base, height, half = 0.5;
-    printf("Enter first base length of your trapezium (for previous menu press 0)\n");
+    printf("Enter first base length of your trapezium\n");
     scanf(" %.2f", &first_base);
     printf("Enter second base length of your trapezium\n");
     scanf(" %.2f", &second_base);
@@ -249,7 +248,7 @@ void trapezium_area()
 void triangle_area()
 {
     float half = 0.5, height, base;
-    printf("Enter height of your triangle (for previous menu press 0)\n");
+    printf("Enter height of your triangle\n");
     scanf(" %.2f", &height);
     printf("Enter base of your triangle\n");
     scanf(" %.2f", &base);
@@ -258,16 +257,16 @@ void triangle_area()
 
 void circle_perimeter()
 {
-    float pi = 3.141592653589793238, two = 2, radius;
-    printf("Enter radius of your circle (for previous menu press 0)\n");
+    float pi = 3.141592653589793238, radius;
+    printf("Enter radius of your circle\n");
     scanf(" %.2f", &radius);
-    printf("Perimeter of your circle is %.2f\n", two * pi * radius);
+    printf("Perimeter of your circle is %.2f\n", 2 * pi * radius);
 }
 
 void equilateraltriangle_perimeter()
 {
     double a;
-    printf("Enter side of your equilateral triangle (for previous menu press 0)\n");
+    printf("Enter side of your equilateral triangle\n");
     scanf(" %.2f", &a);
     printf("Perimeter of your equilateral triangle perimeter is %.2f \n", 3 * a);
 }
@@ -275,7 +274,7 @@ void equilateraltriangle_perimeter()
 void isoscelestriangle_perimeter()
 {
     double a, b;
-    printf("Enter side of your isosceles triangle (for previous menu press 0)\n");
+    printf("Enter side of your isosceles triangle\n");
     scanf(" %.2f", &a);
     printf("Enter base of your isosceles triangle\n");
     scanf(" %.2f", &b);
@@ -285,7 +284,7 @@ void isoscelestriangle_perimeter()
 void rectangle_perimeter()
 {
     double a, b;
-    printf("Enter length of your rectangle (for previous menu press 0)\n");
+    printf("Enter length of your rectangle\n");
     scanf(" %.2f", &a);
     printf("Enter base of your rectangle\n");
     scanf(" %.2f", &b);
@@ -295,7 +294,7 @@ void rectangle_perimeter()
 void square_perimeter()
 {
     double a;
-    printf("Enter side of your square (for previous menu press 0)\n");
+    printf("Enter side of your square\n");
     scanf(" %.2f", &a);
     printf("Perimeter of your square is %.2f \n", 4 * a);
 }
@@ -303,7 +302,7 @@ void square_perimeter()
 void trapezoid_perimeter()
 {
     double a, b, c, d;
-    printf("Enter 1st side of your trapezoid (for previous menu press 0)\n");
+    printf("Enter 1st side of your trapezoid\n");
     scanf(" %.2f", &a);
     printf("Enter 2nd side of your trapezoid\n");
     scanf(" %.2f", &b);
@@ -317,7 +316,7 @@ void trapezoid_perimeter()
 void triangle_perimeter()
 {
     double a, b, c;
-    printf("Enter 1st side of your triangle (for previous menu press 0)\n");
+    printf("Enter 1st side of your triangle\n");
     scanf(" %.2f", &a);
     printf("Enter 2nd side of your triangle\n");
     scanf(" %.2f", &b);
@@ -328,49 +327,48 @@ void triangle_perimeter()
 
 void celsiustofarenheit_temperature()
 {
-    float ThirtyTwo = 32, OnePointEight = 1.8, CelsiusValue;
-    printf("Enter Celsius value (for previous menu press 0)\n");
+    float CelsiusValue;
+    printf("Enter Celsius value\n");
     scanf(" %.2f", &CelsiusValue);
-    printf("In Farenheit it will be %.2f", (CelsiusValue * OnePointEight) + ThirtyTwo);
+    printf("In Farenheit it will be %.2f", (CelsiusValue * 1.8) + 32);
 }
 
 void celsiustokelvin_temperature()
 {
     float CelsiusValue, KelvinValue = 273.15;
-    printf("Enter Celsius value (for previous menu press 0)\n");
+    printf("Enter Celsius value\n");
     scanf(" %.2f", &CelsiusValue);
     printf("In Kelvin it will be %.2f", CelsiusValue + KelvinValue);
 }
 
 void farenheittocelsius_temperature()
 {
-    double ThirtyTwo = 32, OnePointEight = 1.8;
     double FarenheitValue;
-    printf("Enter Farenheit value (for previous menu press 0)\n");
+    printf("Enter Farenheit value\n");
     scanf(" %.2f", &FarenheitValue);
-    printf("In Celsius it will be %.2f", (FarenheitValue - ThirtyTwo) / OnePointEight);
+    printf("In Celsius it will be %.2f", (FarenheitValue - 32) / 1.8);
 }
 
 void farenheittokelvin_temperature()
 {
-    double ThirtyTwo = 32, OnePointEight = 1.8, KelvinValue = 273.15, FarenheitValue;
-    printf("Enter Farenheit value (for previous menu press 0)\n");
+    double KelvinValue = 273.15, FarenheitValue;
+    printf("Enter Farenheit value\n");
     scanf(" %.2f", &FarenheitValue);
-    printf("In Kelvin it will be %.2f", (FarenheitValue - ThirtyTwo) / OnePointEight + KelvinValue);
+    printf("In Kelvin it will be %.2f", (FarenheitValue - 32) / 1.8 + KelvinValue);
 }
 
 void kelvintocelsius_temperature()
 {
     double KelvinNegative = 273.15, KelvinValue;
-    printf("Enter Kelvin Value (for previous menu press 0)\n");
+    printf("Enter Kelvin Value\n");
     scanf(" %.2f", &KelvinValue);
     printf("In Celsius it will be %.2f", KelvinValue - KelvinNegative);
 }
 
 void kelvintofarenheit_temperature()
 {
-    double ThirtyTwo = 32, OnePointEight = 1.8, KelvinValue = 273.15, Kelvinscan;
-    printf("Enter Kelvin Value (for previous menu press 0)\n");
+    double KelvinValue = 273.15, Kelvinscan;
+    printf("Enter Kelvin Value\n");
     scanf(" %.2f", &Kelvinscan);
-    printf("In Farenheit it will be %.2f", (Kelvinscan - KelvinValue) * OnePointEight + ThirtyTwo);
+    printf("In Farenheit it will be %.2f", (Kelvinscan - KelvinValue) * 1.8 + 32);
 }
