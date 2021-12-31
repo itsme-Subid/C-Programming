@@ -5,9 +5,9 @@ void main()
 {
     int 😎 = 0;
     printf("Enter a Character\n");
-    scanf("%c",&😎);
+    scanf("%c", &😎);
     printf("\n\n");
-    for (int i = 0; i < 26; i++)
+    for (int 😋 = 0; 😋 < 26; 😋++)
     {
         printf("\t%c\n", 😎);
         😎++;
