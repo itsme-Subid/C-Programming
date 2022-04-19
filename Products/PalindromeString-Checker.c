@@ -25,28 +25,14 @@ void main()
     int l, i;
     char str[40];
     printf("\t  ***Welcome to Palindrome String Checker***\n\n\a");
-    while (1)
+    printf("Enter some strings to check whether its a Palindrome string or not\n");
+    gets(str);
+    if (palindrome(str))
     {
-
-        printf("Enter some strings to check whether its a Palindrome string or not\n");
-        gets(str);
-        if (str[0] == 0)
-        {
-            goto exit;
-        }
-        else
-        {
-            if (palindrome(str))
-            {
-                printf("This string is a Palindrome string\n");
-            }
-            else
-            {
-                printf("This string is not a Palindrome string\n");
-            }
-
-            printf("\t***Thank You***\n\n");
-        }
+        printf("This string is a Palindrome string\n");
     }
-exit:
+    else
+    {
+        printf("This string is not a Palindrome string\n");
+    }
 }

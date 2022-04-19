@@ -2,8 +2,8 @@
 #include <conio.h>
 void main()
 {
-    int a = 0, b = 0;
     clrscr();
+    int a = 0, b = 0;
     printf("Enter two integer\n");
     scanf("%d %d", &a, &b);
     if (a == b)
