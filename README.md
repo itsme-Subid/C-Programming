@@ -1,4 +1,3 @@
-
 # C Basic Programs
 
 The agenda of this repository is to help others and myself too.
@@ -19,11 +18,11 @@ To check that your GCC tools are correctly installed and available, open a new C
 g++ --version
 gdb --version
 ```
-If you don't see the expected output or g++ or gdb is not a recognized command. Make sure you followed the instructions on the [tdm-gcc website](https://jmeubank.github.io/tdm-gcc/) to install GCC.
+> **Note**: If you don't see the expected output or g++ or gdb is not a recognized command. Make sure you followed the instructions on the [tdm-gcc website](https://jmeubank.github.io/tdm-gcc/) to install GCC.
 
 ## Run Program
 
-Go to the project directory 
+Go to the Project Directory and open `Command Prompt`
 ```bash
   cd C:\Users\{User Name}\Documents\{Project Directory}
 ```
