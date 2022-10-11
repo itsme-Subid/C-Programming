@@ -30,7 +30,7 @@ Go to the Project Directory and open `Command Prompt`
 Clone the project
 
 ```bash
-  git clone git@github.com:itsme-Subid/C-Programming.git .
+  git clone git@github.com:itsme-Subid/C-Programming.git
 ```
 
 Compile Program
