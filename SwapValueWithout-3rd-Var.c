@@ -8,6 +8,6 @@ void main()
     a = a + b;
     b = a - b;
     a = a - b;
-    printf("\n %d\n %d\n", a, b);
+    printf("Swaped values\n%d\n%d\n", a, b);
     getch();
 }
