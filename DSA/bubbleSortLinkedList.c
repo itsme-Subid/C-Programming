@@ -24,6 +24,7 @@ void main()
     p->next = NULL;
     p = head;
     n = 1;
+    
     // input value for linked list
     while (p != NULL)
     {
