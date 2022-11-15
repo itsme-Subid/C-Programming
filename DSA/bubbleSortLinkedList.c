@@ -22,10 +22,10 @@ void main()
         p = p->next;
     }
     p->next = NULL;
-    p = head;
-    n = 1;
     
     // input value for linked list
+    p = head;
+    n = 1;
     while (p != NULL)
     {
         printf("Enter the data for Node %d: ", n);
@@ -33,10 +33,10 @@ void main()
         p = p->next;
         n++;
     }
-    p = head;
-    n--;
 
     // bubble sort
+    p = head;
+    n--;
     int temp;
     for (int j = 0; j < n - 1; j++)
     {
